@@ -2,7 +2,7 @@ package topic2;
 
 public class Persoana {
     private String prenume;
-    public  String nume;
+    public String nume;
     byte varsta;
     protected char gen;
     public double greutate;
