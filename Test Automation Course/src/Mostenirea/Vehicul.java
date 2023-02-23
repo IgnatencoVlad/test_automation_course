@@ -9,7 +9,7 @@ public class Vehicul {
         this.nrRoti = nrRoti;
     }
 
-    public void afiseazaDetaliiVehicul(){
+    public void afiseazaDetaliiVehicul() {
         System.out.println("culoarea este " + culoare + "numarul de roti este " + nrRoti);
     }
 

@@ -1,6 +1,6 @@
 package Abstractie;
 
-public class Patrat extends FormaGeometrica{
+public class Patrat extends FormaGeometrica {
     private int latura;
 
     public int getLatura() {
@@ -17,6 +17,6 @@ public class Patrat extends FormaGeometrica{
 
     @Override
     int calculArie() {
-        return latura*latura;
+        return latura * latura;
     }
 }

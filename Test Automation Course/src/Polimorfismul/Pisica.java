@@ -1,6 +1,6 @@
 package Polimorfismul;
 
-public class Pisica extends Animal{
+public class Pisica extends Animal {
     @Override
     public void emiteSunet() {
         super.emiteSunet();

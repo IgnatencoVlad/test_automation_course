@@ -1,6 +1,6 @@
 package Abstractie;
 
-public class Dreptunghi extends FormaGeometrica{
+public class Dreptunghi extends FormaGeometrica {
     private int laturaA;
     private int laturaB;
 
@@ -27,6 +27,6 @@ public class Dreptunghi extends FormaGeometrica{
 
     @Override
     int calculArie() {
-        return laturaA*laturaB;
+        return laturaA * laturaB;
     }
 }

@@ -1,6 +1,6 @@
 package Abstractie;
 
-public class Triunghi extends FormaGeometrica{
+public class Triunghi extends FormaGeometrica {
     private int latura;
     private int baza;
 
@@ -20,13 +20,13 @@ public class Triunghi extends FormaGeometrica{
         this.latura = latura;
     }
 
-    public Triunghi (int latura, int baza){
+    public Triunghi(int latura, int baza) {
         setLatura(latura);
         setBaza(baza);
     }
 
     @Override
     int calculArie() {
-        return (latura*baza)/2;
+        return (latura * baza) / 2;
     }
 }
