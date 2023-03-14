@@ -1,7 +1,7 @@
 package topic5;
 
 public class Cerc extends FiguraGeometrica {
-private int razaCercului;
+    private int razaCercului;
 
     @Override
     double returneazaAria() {
@@ -9,7 +9,9 @@ private int razaCercului;
     }
 
     @Override
-    double returneazaPerimetrul() { return razaCercului * 2 * 3.14;}
+    double returneazaPerimetrul() {
+        return razaCercului * 2 * 3.14;
+    }
 
     public int getRazaCercului() {
         return razaCercului;
