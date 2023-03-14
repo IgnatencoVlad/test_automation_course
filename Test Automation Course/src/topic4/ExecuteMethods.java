@@ -6,6 +6,8 @@ public class ExecuteMethods {
 
         Persoana Vlad = new Persoana("Vlad", 25);
         Vlad.categorieVirsta();
+
+        Methods.sum(5);
     }
 }
 

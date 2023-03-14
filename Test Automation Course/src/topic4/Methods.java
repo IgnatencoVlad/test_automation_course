@@ -22,14 +22,15 @@ public class Methods {
 
     public static void sum(int a) {
         if (a < 0) {
-            System.out.println("Valoarea a este negativa");
+            System.out.println("numarul :" + a + "introdus este negativ");
         }
         int sum = 0;
         int i = 0;
-        while (i < a) {
+        while (i <= a) {
             sum += i;
             i++;
         }
+        System.out.println(sum);
     }
 }
 
