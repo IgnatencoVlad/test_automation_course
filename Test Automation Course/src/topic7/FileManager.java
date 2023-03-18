@@ -17,7 +17,7 @@ public class FileManager {
 
     static void alipireaInformatieiLaFisier(String caleaCatreFisier, String date) {
         try {
-            FileWriter writer = new FileWriter(caleaCatreFisier);
+            FileWriter writer = new FileWriter(caleaCatreFisier, true);
             writer.append(date);
             writer.close();
         } catch (IOException e) {
